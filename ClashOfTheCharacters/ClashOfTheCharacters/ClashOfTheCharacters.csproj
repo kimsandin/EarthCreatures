@@ -211,6 +211,7 @@
     <Compile Include="Models\Battle.cs" />
     <Compile Include="Models\BattleCreature.cs" />
     <Compile Include="Models\Challenge.cs" />
+    <Compile Include="Models\ContactRequest.cs" />
     <Compile Include="Models\Creature.cs" />
     <Compile Include="Models\ClearedLand.cs" />
     <Compile Include="Models\Competitor.cs" />
@@ -252,6 +253,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrapcustom.css" />
     <Content Include="Content\character.css" />
+    <Content Include="Content\ContactForm.css" />
     <Content Include="Content\fancybox\blank.gif" />
     <Content Include="Content\fancybox\fancybox_buttons.png" />
     <Content Include="Content\fancybox\fancybox_loading%402x.gif" />
@@ -309,7 +311,41 @@
     <Content Include="Images\Elements\earth.png" />
     <Content Include="Images\Elements\fire.png" />
     <Content Include="Images\Elements\water.png" />
+    <Content Include="Images\Favicon\android-icon-144x144.png" />
+    <Content Include="Images\Favicon\android-icon-192x192.png" />
+    <Content Include="Images\Favicon\android-icon-36x36.png" />
+    <Content Include="Images\Favicon\android-icon-48x48.png" />
+    <Content Include="Images\Favicon\android-icon-72x72.png" />
+    <Content Include="Images\Favicon\android-icon-96x96.png" />
+    <Content Include="Images\Favicon\apple-icon-114x114.png" />
+    <Content Include="Images\Favicon\apple-icon-120x120.png" />
+    <Content Include="Images\Favicon\apple-icon-144x144.png" />
+    <Content Include="Images\Favicon\apple-icon-152x152.png" />
+    <Content Include="Images\Favicon\apple-icon-180x180.png" />
+    <Content Include="Images\Favicon\apple-icon-57x57.png" />
+    <Content Include="Images\Favicon\apple-icon-60x60.png" />
+    <Content Include="Images\Favicon\apple-icon-72x72.png" />
+    <Content Include="Images\Favicon\apple-icon-76x76.png" />
+    <Content Include="Images\Favicon\apple-icon-precomposed.png" />
+    <Content Include="Images\Favicon\apple-icon.png" />
+    <Content Include="Images\Favicon\browserconfig.xml" />
+    <Content Include="Images\Favicon\favicon-16x16.png" />
+    <Content Include="Images\Favicon\favicon-32x32.png" />
+    <Content Include="Images\Favicon\favicon-96x96.png" />
+    <Content Include="Images\Favicon\favicon.ico" />
+    <Content Include="Images\Favicon\ms-icon-144x144.png" />
+    <Content Include="Images\Favicon\ms-icon-150x150.png" />
+    <Content Include="Images\Favicon\ms-icon-310x310.png" />
+    <Content Include="Images\Favicon\ms-icon-70x70.png" />
+    <Content Include="Images\Help\alex.PNG" />
+    <Content Include="Images\Help\alisina.jpg" />
+    <Content Include="Images\Help\anette.png" />
+    <Content Include="Images\Help\CardInfo.PNG" />
     <Content Include="Images\Help\element_effect.png" />
+    <Content Include="Images\Help\jag.jpg" />
+    <Content Include="Images\Help\kim.jpg" />
+    <Content Include="Images\Help\omran.jpg" />
+    <Content Include="Images\Help\richard.jpg" />
     <Content Include="Images\Help\ScoreCount.PNG" />
     <Content Include="Images\Land\air.jpg" />
     <Content Include="Images\Land\attack.png" />
@@ -355,6 +391,8 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="Images\Favicon\manifest.json" />
+    <None Include="Properties\PublishProfiles\Kim.pubxml" />
     <None Include="Properties\PublishProfiles\Rickard.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\fancybox-custom.js" />
@@ -430,7 +468,6 @@
     <Content Include="Views\Creature\Select.cshtml" />
     <Content Include="Views\Auction\Index.cshtml" />
     <Content Include="Views\Auction\SellCreature.cshtml" />
-    <Content Include="Views\Village\Index.cshtml" />
     <Content Include="Views\Map\Shop.cshtml" />
     <Content Include="Views\Admin\Create.cshtml" />
     <Content Include="Views\Admin\Delete.cshtml" />
@@ -438,6 +475,10 @@
     <Content Include="Views\Admin\Edit.cshtml" />
     <Content Include="Views\Creature\Sell.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Help\ContactForm.cshtml" />
+    <Content Include="Views\Help\SendEmailError.cshtml" />
+    <Content Include="Views\Help\Thanks.cshtml" />
+    <Content Include="Views\Help\About.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
