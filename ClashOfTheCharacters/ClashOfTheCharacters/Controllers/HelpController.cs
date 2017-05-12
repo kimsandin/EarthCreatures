@@ -54,9 +54,9 @@ namespace ClashOfTheCharacters.Controllers
                     WebMail.SmtpUseDefaultCredentials = false;
                     WebMail.EnableSsl = true;
                     WebMail.UserName = "creatures@cimoco.se";
-                    WebMail.Password = "123456";
+                    WebMail.Password = "Turner95";
                     WebMail.From = supportEmail;
-                    WebMail.Send(to: supportEmail, subject: "Help request from - " + customerName,
+                    WebMail.Send(to: supportEmail, subject: "Support request from - " + customerName,
                         body: "Support request from: " + customerName + ", \nPhonenumber: " + customerPhone + ", \nEmail: " + customerEmail + ", \nQuestion: " + customerRequest
 
 

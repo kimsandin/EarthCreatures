@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("ClashOfTheCharacters")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Caperio AB")]
+[assembly: AssemblyCompany("Earth of Creatures")]
 [assembly: AssemblyProduct("ClashOfTheCharacters")]
-[assembly: AssemblyCopyright("Copyright © Caperio AB 2016")]
+[assembly: AssemblyCopyright("Copyright © Earth of Creatures 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

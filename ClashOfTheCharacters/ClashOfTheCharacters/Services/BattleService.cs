@@ -40,7 +40,7 @@ namespace ClashOfTheCharacters.Services
             //Så länge båda tävlande har Hp kvar...
             while (challengerCompetitor.TotalHp > 0 && receiverCompetitor.TotalHp > 0)
             {
-                //så plockar vi fram första karatären i båda lagen som lever.
+                //så plockar vi fram första karaktären i båda lagen som lever.
                 var challengerCharacter = challengerCompetitor.BattleCreatures.Where(ct => ct.Alive).OrderBy(bc => bc.Slot).First();
                 var receiverCharacter = receiverCompetitor.BattleCreatures.Where(ct => ct.Alive).OrderBy(bc => bc.Slot).First();
 
